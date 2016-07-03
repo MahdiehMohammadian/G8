@@ -1,0 +1,9 @@
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.BLL.dll
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.BLL.pdb
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.DAL.dll
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.Model.dll
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.DAL.pdb
+D:\StudentConferenc\Conf.Root\ConfBLL\bin\Debug\Conf.Model.pdb
+D:\StudentConferenc\Conf.Root\ConfBLL\obj\Debug\ConfBLL.csprojResolveAssemblyReference.cache
+D:\StudentConferenc\Conf.Root\ConfBLL\obj\Debug\Conf.BLL.dll
+D:\StudentConferenc\Conf.Root\ConfBLL\obj\Debug\Conf.BLL.pdb

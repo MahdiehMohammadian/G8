@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7508CC8-5974-4939-88AB-B7AC157B1325}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Conf.DAL</RootNamespace>
+    <AssemblyName>Conf.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="DABaseClass.cs" />
+    <Compile Include="DAL\abs_articleDAL.cs" />
+    <Compile Include="DAL\accept_articleDAL.cs" />
+    <Compile Include="DAL\aghlamefactorDAL.cs" />
+    <Compile Include="DAL\articleDAL.cs" />
+    <Compile Include="DAL\commentDAL.cs" />
+    <Compile Include="DAL\factor2DAL.cs" />
+    <Compile Include="DAL\factorDAL.cs" />
+    <Compile Include="DAL\judegDAL.cs" />
+    <Compile Include="DAL\judgmentDAL.cs" />
+    <Compile Include="DAL\kalaDAL.cs" />
+    <Compile Include="DAL\kala_groupDAL.cs" />
+    <Compile Include="DAL\kargahDAL.cs" />
+    <Compile Include="DAL\other_serviceDAL.cs" />
+    <Compile Include="DAL\personDAL.cs" />
+    <Compile Include="DAL\person_roleDAL.cs" />
+    <Compile Include="DAL\placeDAL.cs" />
+    <Compile Include="DAL\present_dateDAL.cs" />
+    <Compile Include="DAL\present_scoreDAL.cs" />
+    <Compile Include="DAL\p_licenseDAL.cs" />
+    <Compile Include="DAL\p_serviceDAL.cs" />
+    <Compile Include="DAL\roleDAL.cs" />
+    <Compile Include="DAL\send_to_judgeDAL.cs" />
+    <Compile Include="DAL\sessionDAL.cs" />
+    <Compile Include="DAL\subjectDAL.cs" />
+    <Compile Include="DAL\tbl_fildDAL.cs" />
+    <Compile Include="DAL\tbl_groupDAL.cs" />
+    <Compile Include="DAL\tbl_linkDAL.cs" />
+    <Compile Include="DAL\tbl_postDAL.cs" />
+    <Compile Include="DAL\userDAL.cs" />
+    <Compile Include="DAL\user_ArticleDAL.cs" />
+    <Compile Include="DAL\user_roleDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlDatabase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConfModel\ConfModel.csproj">
+      <Project>{30654D62-8A48-4E38-8E29-137DF8506E4B}</Project>
+      <Name>ConfModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30654D62-8A48-4E38-8E29-137DF8506E4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Conf.Model</RootNamespace>
+    <AssemblyName>Conf.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="Model\abs_articleModel.cs" />
+    <Compile Include="Model\accept_articleModel.cs" />
+    <Compile Include="Model\aghlamefactorModel.cs" />
+    <Compile Include="Model\articleModel.cs" />
+    <Compile Include="Model\commentModel.cs" />
+    <Compile Include="Model\factor2Model.cs" />
+    <Compile Include="Model\factorModel.cs" />
+    <Compile Include="Model\judegModel.cs" />
+    <Compile Include="Model\judgmentModel.cs" />
+    <Compile Include="Model\kalaModel.cs" />
+    <Compile Include="Model\kala_groupModel.cs" />
+    <Compile Include="Model\kargahModel.cs" />
+    <Compile Include="Model\other_serviceModel.cs" />
+    <Compile Include="Model\personModel.cs" />
+    <Compile Include="Model\person_roleModel.cs" />
+    <Compile Include="Model\placeModel.cs" />
+    <Compile Include="Model\present_dateModel.cs" />
+    <Compile Include="Model\present_scoreModel.cs" />
+    <Compile Include="Model\p_licenseModel.cs" />
+    <Compile Include="Model\p_serviceModel.cs" />
+    <Compile Include="Model\roleModel.cs" />
+    <Compile Include="Model\send_to_judgeModel.cs" />
+    <Compile Include="Model\sessionModel.cs" />
+    <Compile Include="Model\subjectModel.cs" />
+    <Compile Include="Model\tbl_fildModel.cs" />
+    <Compile Include="Model\tbl_groupModel.cs" />
+    <Compile Include="Model\tbl_linkModel.cs" />
+    <Compile Include="Model\tbl_postModel.cs" />
+    <Compile Include="Model\userModel.cs" />
+    <Compile Include="Model\user_ArticleModel.cs" />
+    <Compile Include="Model\user_roleModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+D:\StudentConferenc\Conf.Root\ConfDAL\bin\Debug\Conf.DAL.dll
+D:\StudentConferenc\Conf.Root\ConfDAL\bin\Debug\Conf.DAL.pdb
+D:\StudentConferenc\Conf.Root\ConfDAL\bin\Debug\Conf.Model.dll
+D:\StudentConferenc\Conf.Root\ConfDAL\bin\Debug\Conf.Model.pdb
+D:\StudentConferenc\Conf.Root\ConfDAL\obj\Debug\ConfDAL.csprojResolveAssemblyReference.cache
+D:\StudentConferenc\Conf.Root\ConfDAL\obj\Debug\Conf.DAL.dll
+D:\StudentConferenc\Conf.Root\ConfDAL\obj\Debug\Conf.DAL.pdb

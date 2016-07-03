@@ -1,0 +1,5 @@
+D:\StudentConferenc\Conf.Root\ConfModel\bin\Debug\Conf.Model.dll
+D:\StudentConferenc\Conf.Root\ConfModel\bin\Debug\Conf.Model.pdb
+D:\StudentConferenc\Conf.Root\ConfModel\obj\Debug\ConfModel.csprojResolveAssemblyReference.cache
+D:\StudentConferenc\Conf.Root\ConfModel\obj\Debug\Conf.Model.dll
+D:\StudentConferenc\Conf.Root\ConfModel\obj\Debug\Conf.Model.pdb

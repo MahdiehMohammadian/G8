@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF9FE45B-32E0-4980-833F-A92DB10F10EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Conf.BLL</RootNamespace>
+    <AssemblyName>Conf.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BFBaseClass.cs" />
+    <Compile Include="BLL\abs_articleBLL.cs" />
+    <Compile Include="BLL\accept_articleBLL.cs" />
+    <Compile Include="BLL\aghlamefactorBLL.cs" />
+    <Compile Include="BLL\articleBLL.cs" />
+    <Compile Include="BLL\commentBLL.cs" />
+    <Compile Include="BLL\factor2BLL.cs" />
+    <Compile Include="BLL\factorBLL.cs" />
+    <Compile Include="BLL\judegBLL.cs" />
+    <Compile Include="BLL\judgmentBLL.cs" />
+    <Compile Include="BLL\kalaBLL.cs" />
+    <Compile Include="BLL\kala_groupBLL.cs" />
+    <Compile Include="BLL\kargahBLL.cs" />
+    <Compile Include="BLL\other_serviceBLL.cs" />
+    <Compile Include="BLL\personBLL.cs" />
+    <Compile Include="BLL\person_roleBLL.cs" />
+    <Compile Include="BLL\placeBLL.cs" />
+    <Compile Include="BLL\present_dateBLL.cs" />
+    <Compile Include="BLL\present_scoreBLL.cs" />
+    <Compile Include="BLL\p_licenseBLL.cs" />
+    <Compile Include="BLL\p_serviceBLL.cs" />
+    <Compile Include="BLL\roleBLL.cs" />
+    <Compile Include="BLL\send_to_judgeBLL.cs" />
+    <Compile Include="BLL\sessionBLL.cs" />
+    <Compile Include="BLL\subjectBLL.cs" />
+    <Compile Include="BLL\tbl_fildBLL.cs" />
+    <Compile Include="BLL\tbl_groupBLL.cs" />
+    <Compile Include="BLL\tbl_linkBLL.cs" />
+    <Compile Include="BLL\tbl_postBLL.cs" />
+    <Compile Include="BLL\userBLL.cs" />
+    <Compile Include="BLL\user_ArticleBLL.cs" />
+    <Compile Include="BLL\user_roleBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConfDAL\ConfDAL.csproj">
+      <Project>{A7508CC8-5974-4939-88AB-B7AC157B1325}</Project>
+      <Name>ConfDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConfModel\ConfModel.csproj">
+      <Project>{30654D62-8A48-4E38-8E29-137DF8506E4B}</Project>
+      <Name>ConfModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
